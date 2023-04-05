@@ -1,52 +1,59 @@
-import React from 'react';
+import summer from './images/summer.png'
+import spring from './images/spring.png'
+import fall from './images/fall.png'
+import winter from './images/winter.png'
 
-// Here we are using object destructuring assignment to pluck off our variables from the props object
-// We assign them to their own variable names
+const styles = {
+  btnFloating: {
+    borderRadius: '40px',
+    width: '180px',
+    height: '180px',
+    display: 'flex',
+  },
+  
+  btnFloatingImg: {
+    width: '100%',
+    height: '100%',
+  }
+}
+
+
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
-        <a
-          href="#home"
+    <div className="fixed-action-btn">
+      <a href="#home" className={`btn-floating btn-large blue ${currentPage === 'Home' ? 'nav-link active' : 'nav-link'}`} style={styles.btnFloating}>
+        <img
+          src={winter}
+          alt="Home"
           onClick={() => handlePageChange('Home')}
-          // This is a conditional (ternary) operator that checks to see if the current page is "Home"
-          // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-        >
-          Home
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#about"
+          style={styles.btnFloatingImg}
+        />
+      </a>
+      <a href="#about" className={`btn-floating btn-large blue ${currentPage === 'About' ? 'nav-link active' : 'nav-link'}`} style={styles.btnFloating}>
+        <img
+          src={spring}
+          alt="About"
           onClick={() => handlePageChange('About')}
-          // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-        >
-          About Me
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#Work"
+          style={styles.btnFloatingImg}
+        />
+      </a>
+      <a href="#work" className={`btn-floating btn-large blue ${currentPage === 'Work' ? 'nav-link active' : 'nav-link'}`} style={styles.btnFloating}>
+        <img
+          src={summer}
+          alt="Work"
           onClick={() => handlePageChange('Work')}
-          // Check to see if the currentPage is `Work`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === 'Work' ? 'nav-link active' : 'nav-link'}
-        >
-          My Work
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#contact"
+          style={styles.btnFloatingImg}
+        />
+      </a>
+      <a href="#contact" className={`btn-floating btn-large blue ${currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}`} style={styles.btnFloating}>
+        <img
+          src={fall}
+          alt="Contact"
           onClick={() => handlePageChange('Contact')}
-          // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-        >
-          Contact Me
-        </a>
-      </li>
-    </ul>
+          style={styles.btnFloatingImg}
+        />
+      </a>
+    </div>
   );
 }
 
