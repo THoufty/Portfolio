@@ -6,8 +6,8 @@ import winter from './images/winter.png'
 const styles = {
   btnFloating: {
     borderRadius: '40px',
-    width: '180px',
-    height: '180px',
+    width: '203px',
+    height: '203px',
     display: 'flex',
   },
   
