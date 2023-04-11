@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.364023d3.css",
+    "main.js": "/portfolio/static/js/main.d24d95d8.js",
+    "static/media/profile.png": "/portfolio/static/media/profile.e012dc171ea6d3ca2b18.png",
+    "static/media/spring.png": "/portfolio/static/media/spring.5902013b8cad3983e3ec.png",
+    "static/media/fall.png": "/portfolio/static/media/fall.e1fc191a5a3ada2581ec.png",
+    "static/media/summer.png": "/portfolio/static/media/summer.b4ab9098509d9c1c8880.png",
+    "static/media/winter.png": "/portfolio/static/media/winter.d508308d282aa30cda1b.png",
+    "index.html": "/portfolio/index.html",
+    "main.364023d3.css.map": "/portfolio/static/css/main.364023d3.css.map",
+    "main.d24d95d8.js.map": "/portfolio/static/js/main.d24d95d8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.364023d3.css",
+    "static/js/main.d24d95d8.js"
+  ]
+}
