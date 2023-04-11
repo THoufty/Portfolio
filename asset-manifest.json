@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/thoufty.github.io/Portfolio/static/css/main.364023d3.css",
-    "main.js": "/thoufty.github.io/Portfolio/static/js/main.07435f5b.js",
-    "static/media/profile.png": "/thoufty.github.io/Portfolio/static/media/profile.e012dc171ea6d3ca2b18.png",
-    "static/media/spring.png": "/thoufty.github.io/Portfolio/static/media/spring.5902013b8cad3983e3ec.png",
-    "static/media/fall.png": "/thoufty.github.io/Portfolio/static/media/fall.e1fc191a5a3ada2581ec.png",
-    "static/media/summer.png": "/thoufty.github.io/Portfolio/static/media/summer.b4ab9098509d9c1c8880.png",
-    "static/media/winter.png": "/thoufty.github.io/Portfolio/static/media/winter.d508308d282aa30cda1b.png",
-    "index.html": "/thoufty.github.io/Portfolio/index.html",
-    "main.364023d3.css.map": "/thoufty.github.io/Portfolio/static/css/main.364023d3.css.map",
-    "main.07435f5b.js.map": "/thoufty.github.io/Portfolio/static/js/main.07435f5b.js.map"
+    "main.css": "/Portfolio/static/css/main.364023d3.css",
+    "main.js": "/Portfolio/static/js/main.77cd565c.js",
+    "static/media/profile.png": "/Portfolio/static/media/profile.e012dc171ea6d3ca2b18.png",
+    "static/media/spring.png": "/Portfolio/static/media/spring.5902013b8cad3983e3ec.png",
+    "static/media/fall.png": "/Portfolio/static/media/fall.e1fc191a5a3ada2581ec.png",
+    "static/media/summer.png": "/Portfolio/static/media/summer.b4ab9098509d9c1c8880.png",
+    "static/media/winter.png": "/Portfolio/static/media/winter.d508308d282aa30cda1b.png",
+    "index.html": "/Portfolio/index.html",
+    "main.364023d3.css.map": "/Portfolio/static/css/main.364023d3.css.map",
+    "main.77cd565c.js.map": "/Portfolio/static/js/main.77cd565c.js.map"
   },
   "entrypoints": [
     "static/css/main.364023d3.css",
-    "static/js/main.07435f5b.js"
+    "static/js/main.77cd565c.js"
   ]
 }
